@@ -85,6 +85,7 @@ a.expand:hover {
 	border-left: 200px solid #FFFFFF;
 	border-right: 250px solid #FFACAA;
 	position: relative;
+	background-color: #007BAD;
 }
 .middle:after {
 	display: table;
@@ -96,6 +97,7 @@ a.expand:hover {
 	float: left;
 	overflow: hidden;
 	margin-right: -100%;
+	
 }
 .content {
 	padding: 0 20px;
@@ -110,6 +112,7 @@ a.expand:hover {
 	position: relative;
 	left: -200px;
 	border-left: solid #ffffff 1px;
+	background: #ffffff url('menuBackground.jpg') repeat;
 }
 
 
@@ -139,6 +142,7 @@ a.expand:hover {
 	border-color: #94AA74;
 	border-size: 1px;
 	border-width: 1px;
+	background: #ffffff url('menuBackground.jpg') repeat;
 
 }
 
