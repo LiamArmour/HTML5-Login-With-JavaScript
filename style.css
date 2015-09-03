@@ -72,7 +72,7 @@ a.expand:hover {
 -----------------------------------------------------------------------------*/
 .header {
 	height: 150px;
-	background: #8d8d95;
+	background: #212020 url('header.jpg') repeat;
 	border-left: solid #ffffff 1px;
 	border-right: solid #ffffff 1px;
 	border-top: solid #ffffff 1px;
@@ -82,7 +82,7 @@ a.expand:hover {
 /* Middle
 -----------------------------------------------------------------------------*/
 .middle {
-	border-left: 250px solid #B5E3FF;
+	border-left: 200px solid #FFFFFF;
 	border-right: 250px solid #FFACAA;
 	position: relative;
 }
@@ -106,10 +106,10 @@ a.expand:hover {
 -----------------------------------------------------------------------------*/
 .left-sidebar {
 	float: left;
-	width: 250px;
+	width: 200px;
 	position: relative;
-	background: #B5E3FF;
-	left: -250px;
+	left: -200px;
+	border-left: solid #ffffff 1px;
 }
 
 
@@ -139,7 +139,7 @@ a.expand:hover {
 	border-color: #94AA74;
 	border-size: 1px;
 	border-width: 1px;
-	margin: 10px;
+
 }
 
 #menu li a {
@@ -153,19 +153,19 @@ a.expand:hover {
 #menu li a:link, #menu li a:visited {
 	color: #5E7830;
 	display: block;
-	background: url(images/menu1.gif);
+	background: url(menu1.gif);
 	padding: 8px 0 0 10px;
 }
 
 #menu li a:hover {
 	color: #26370A;
-	background: url(images/menu1.gif) 0 -32px;
+	background: url(menu1.gif) 0 -32px;
 	padding: 8px 0 0 10px;
 }
 
 #menu li a:active {
 	color: #26370A;
-	background: url(images/menu1.gif) 0 -64px;
+	background: url(menu1.gif) 0 -64px;
 	padding: 8px 0 0 10px;
 }
 #menu ul {
